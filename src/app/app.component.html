@@ -1,0 +1,8 @@
+<div>
+  <h1>
+    Welcome to {{ data.title }}
+  </h1>
+  <img width="300" (click)="onLogoClicked()" alt="Angular logo" src="../assets/Angular_full_color_logo.svg.png">
+</div>
+
+<input class="demo" (keyup)="onKeyUp(titleInput.value)" [value]="data.title" #titleInput>   
