@@ -17,4 +17,6 @@ export class AppComponent {
   onKeyUp(newTitle:string) {
     this.data.title = newTitle;
   }
+
+  image = 'https://en.wikipedia.org/wiki/File:Angular_full_color_logo.svg'
 }
